@@ -11,9 +11,20 @@ font-size: 16px;
 }
 h1 {
 	font-size: 25px;
+	color: steelblue;
 }
 h3 {
 	font-size: 20px;
+	color: steelblue;
+}
+section {
+	border-radius: 10px;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
+aside {
+	margin-bottom: 10px;
+	padding-bottom: 10px;
 }
 .wrapper {
 	width: 80%;
@@ -30,10 +41,10 @@ h3 {
 }
 .content {
 	background-color: white;
-	padding: 20px;
+	padding: 10px 20px 10px 20px;
 	border-style: solid;
 	border-width: 2px;
-	border-color: #dddddd;
+	border-color: steelblue;
 }
 .image1 {
 	float: left;
@@ -42,14 +53,15 @@ h3 {
 	padding-right: 10px;
 }
 .sidebar {
+	border-radius: 10px;
 	width: 100%;
 	background-color: white;
-	padding: 20px;
+	padding: 10px 20px 20px 20px;
 	align-content: center;
 	text-align: center;
 	border-style: solid;
 	border-width: 2px;
-	border-color: #dddddd;
+	border-color: steelblue;
 }
 .connect {
 	width: 50px;
@@ -78,6 +90,7 @@ h3 {
 }
 
 footer {
+	border-top: solid 1px steelblue;
 	padding: 10px 0px 0px 5px;
 	text-align: center;
 	color: white;
@@ -88,5 +101,9 @@ footer {
 	left: 0;
 }
 footer:hover {
-	color:teal;
+	color: steelblue;
+}
+.col-md-6 {
+	margin-top: -40px;
+	margin-bottom: 20px;
 }
