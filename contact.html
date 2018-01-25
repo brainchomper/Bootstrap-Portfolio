@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="shortcut icon" type="image/png" href="./assets/images/favicon.ico" />
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<title>Kevin Smith's Bootstrap Portfolio</title>
+</head>
+
+<body onload="myFunction()">
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar2">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="index.html">
+					<img src="assets/images/logo.png" alt="Kevin Smith">
+				</a>
+			</div>
+			<div id="navbar2" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li>
+						<a href="index.html">About</a>
+					</li>
+					<li>
+						<a href="portfolio.html">Portfolio</a>
+					</li>
+					<li class="active">
+						<a href="contact.html">Contact</a>
+					</li>
+				</ul>
+			</div>
+			<!--/.nav-collapse -->
+		</div>
+		<!--/.container-fluid -->
+	</nav>
+
+	<section>
+		<div class="wrapper">
+			<div class="containerMain">
+				<div class="row">
+					<div class="col-md-8">
+						<section class="content">
+							<h1>Contact Me</h1>
+							<hr>
+							<form>
+									<div class="form-group">
+										<label for="exampleInputEmail1">Email address</label>
+										<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+									</div>
+									<div class="form-group">
+										<label for="exampleInputPassword1">Password</label>
+										<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+									</div>
+									<div class="form-group">
+											<label for="message-text">Message</label>
+											<textarea class="form-control" rows="3" id="message-text"></textarea>
+									</div>
+									
+									<button type="submit" class="btn btn-default">Submit</button>
+								</form>
+						</section>
+					</div>
+					<div class="col-md-4">
+						<aside>
+							<div class="containerSide">
+								<div class="sidebar">
+									<div class="row">
+										<h3>Connect With Me</h3>
+										<hr>
+										<a href="https://github.com/brainchomper" target="_blank">
+											<img src="./assets/images/github.png" alt="GitHub" class="connect">
+										</a>
+										<a href="https://www.linkedin.com/in/kvnsmith/" target="_blank">
+											<img src="./assets/images/linkedin.png" alt="LinkedIn" class="connect">
+										</a>
+
+										<a href="https://stackoverflow.com/users/9217650/kevin-smith" target="_blank">
+											<img src="./assets/images/stackoverflow.png" alt="Stack Overflow" class="connect">
+										</a>
+									</div>
+								</div>
+							</div>
+						</aside>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<p>&copy;
+			<span id="btmfooter"></span> Kevin Smith</p>
+		<script>
+			function myFunction() {
+				var d = new Date();
+				var n = d.getFullYear();
+				document.getElementById("btmfooter").innerHTML = n;
+			}
+		</script>
+	</footer>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="assets/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
