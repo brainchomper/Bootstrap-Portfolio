@@ -113,7 +113,7 @@ footer:hover {
 	margin-bottom: 20px;
 	padding-right: 10px;
 }
-@media screen and (max-width: 600px) {	
+@media screen and (max-width: 640px) {	
 	.wrapper {
 		width: 100%;
 	}
