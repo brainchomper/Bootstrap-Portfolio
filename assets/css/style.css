@@ -96,10 +96,9 @@ aside {
 	padding: 16px;
 	color: #ffffff;
 }
-
 footer {
 	border-top: solid 1px steelblue;
-	padding: 10px 0px 0px 5px;
+	padding: 10px 0px 0px 0px;
 	text-align: center;
 	color: white;
 	background-color: grey;
@@ -119,5 +118,8 @@ footer:hover {
 @media screen and (max-width: 640px) {	
 	.wrapper {
 		width: 100%;
+	}
+	.section {
+		padding: 20px 0px 20px 0px;
 	}
 }
