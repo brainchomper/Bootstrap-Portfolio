@@ -17,6 +17,10 @@ h3 {
 	font-size: 20px;
 	color: steelblue;
 }
+a {
+	text-decoration: none;
+	color: steelblue;
+}
 section {
 	border-radius: 10px;
 	margin-bottom: 20px;
@@ -104,7 +108,7 @@ footer {
 footer:hover {
 	color: steelblue;
 }
-.col-md-6 {
+.col-sm-6 {
 	margin-top: -40px;
 	margin-bottom: 20px;
 	padding-right: 10px;
